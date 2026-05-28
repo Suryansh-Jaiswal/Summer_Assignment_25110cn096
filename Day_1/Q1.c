@@ -1,9 +1,12 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    int a,b;
-    a=10;
-    b=5;
-    printf("%d",a+b);
+    int i,n,sum=0;
+    printf("Enter number:");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++){
+        sum=sum+i;
+    }
+    printf("%d\n",sum);
     return 0;
 }
